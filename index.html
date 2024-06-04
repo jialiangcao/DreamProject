@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Dream Analyzer</h1>
+            <p>Log, Analyze, and Explore Your Dreams</p>
+        </header>
+        <main>
+            <section class="log-dream">
+                <h2>Log Your Dream</h2>
+                <form id="dreamForm">
+                    <textarea id="dreamDetails" placeholder="Describe your dream in detail..."></textarea>
+                    <select id="dreamType">
+                        <option value="falling">Falling Dream</option>
+                        <option value="chasing">Chasing Dream</option>
+                        <option value="movie">Movie Dream</option>
+                        <option value="memory">Memory Dream</option>
+                        <!-- Add more types as needed -->
+                    </select>
+                    <button type="submit">Log Dream</button>
+                </form>
+            </section>
+            <section class="dream-analysis">
+                <h2>Dream Analysis</h2>
+                <div id="analysisResult">
+                    <!-- Analysis result will be displayed here -->
+                </div>
+            </section>
+            <section class="community-opinions">
+                <h2>Community Opinions</h2>
+                <div class="community-card">
+                    <img src="https://via.placeholder.com/150" alt="Community Member">
+                    <p>"I had a similar dream about falling and it really helped to understand it better through this app."</p>
+                </div>
+                <div class="community-card">
+                    <img src="https://via.placeholder.com/150" alt="Community Member">
+                    <p>"Chasing dreams always scared me, but sharing with others gave me a new perspective."</p>
+                </div>
+                <div class="community-card">
+                    <img src="https://via.placeholder.com/150" alt="Community Member">
+                    <p>"Re-living my movie-like dreams in VR was an incredible experience. Highly recommend it!"</p>
+                </div>
+            </section>
+            <section class="professional-consultation">
+                <h2>Consult a Professional</h2>
+                <button id="scheduleConsultation">Schedule a Consultation</button>
+            </section>
+            <section class="virtual-reality">
+                <h2>Virtual Reality Experience</h2>
+                <button id="setupVR">Set Up VR Experience</button>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Dream Analyzer</p>
+        </footer>
+        <script src="scripts.js"></script>
+    </div>
+</body>
+</html>
